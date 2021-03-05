@@ -46,7 +46,7 @@ class HighlightDodgyChars(sublime_plugin.EventListener):
             self.highlight()
 
     def highlight(self):
-        if view.settings().get('terminus_view'):
+        if self.view.settings().get('terminus_view'):
             return
 
         phantoms = []
