@@ -46,6 +46,9 @@ class HighlightDodgyChars(sublime_plugin.EventListener):
             self.highlight()
 
     def highlight(self):
+        if view.settings().get('terminus_view'):
+            return
+
         phantoms = []
         # allow newline, forward-tick and tabulator
         default_whitelist = u'\n´\u0009'
