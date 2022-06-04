@@ -20,3 +20,11 @@ By default the European special characters are whitelisted. The whitelisted char
 The easiest way to install this plugin is with the **Package Control plugin** If you don't have Package Control installed, you can find instructions here: [https://packagecontrol.io/installation](https://packagecontrol.io/installation)
 
 Once you've installed Package Control, restart Sublime and open the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows). Type/select "Package Control: Install Package", wait while Package Control fetches the latest package list, then type/select `Highlight Custom Chars Unicode` when the list appears.
+
+## develope docs
+
+https://www.sublimetext.com/docs/api_reference.html
+
+https://www.likecs.com/show-205156794.html
+
+http://kb.mozillazine.org/Network.IDN.blacklist_chars
