@@ -1,0 +1,11 @@
+{
+    "chars_regex": [
+    	"\u200B-\u200F\uFEFF\u00AD\u2060",
+		"\u202A-\u202E",
+    ],
+
+	"highlight_color": "purplish", // purplish, redish, orangish, yellowish, greenish, cyanish, bluish, pinkish, dark, light ,
+
+	"highlight_text": "<{$char}>",
+
+}
